@@ -1,0 +1,112 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+Block	memlib.h	/^struct Block {$/;"	s
+Block	old/memtest.c	/^struct Block {$/;"	s	file:
+Block	old/memtest1.c	/^struct Block {$/;"	s	file:
+Block	old/memtest1.h	/^struct Block {$/;"	s
+Block	old/memtest2.c	/^struct Block {$/;"	s	file:
+Block	old/memtest3.c	/^struct Block {$/;"	s	file:
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -Wall -O2 -MMD -MP$/;"	m
+DEPS	Makefile	/^DEPS = $(SRCS:%.c=%.d)$/;"	m
+ITEM_PER_BLOCK	memtest.c	5;"	d	file:
+ITEM_PER_BLOCK	old/memtest.c	5;"	d	file:
+ITEM_PER_BLOCK	old/memtest1.c	5;"	d	file:
+ITEM_PER_BLOCK	old/memtest2.c	24;"	d	file:
+ITEM_PER_BLOCK	old/memtest3.c	24;"	d	file:
+Item	memtest.c	/^struct Item {$/;"	s	file:
+Item	old/memtest.c	/^struct Item {$/;"	s	file:
+Item	old/memtest1.c	/^struct Item {$/;"	s	file:
+Item	old/memtest2.c	/^struct Item {$/;"	s	file:
+Item	old/memtest3.c	/^struct Item {$/;"	s	file:
+MemManager	memlib.h	/^struct MemManager {$/;"	s
+MemManager	old/memtest.c	/^struct MemManager {$/;"	s	file:
+MemManager	old/memtest1.c	/^struct MemManager {$/;"	s	file:
+MemManager	old/memtest1.h	/^struct MemManager {$/;"	s
+MemManager	old/memtest2.c	/^struct MemManager {$/;"	s	file:
+MemManager	old/memtest3.c	/^struct MemManager {$/;"	s	file:
+OBJS	Makefile	/^OBJS = $(SRCS:%.c=%.o)$/;"	m
+PROG	Makefile	/^PROG = memtest$/;"	m
+SRCS	Makefile	/^SRCS = memtest.c memlib.c$/;"	m
+cell_size	memlib.h	/^    int             cell_size;$/;"	m	struct:MemManager
+cell_size	old/memtest2.c	/^    int             cell_size;$/;"	m	struct:MemManager	file:
+cell_size	old/memtest3.c	/^    int             cell_size;$/;"	m	struct:MemManager	file:
+cells	memlib.h	/^    char            *cells;$/;"	m	struct:Block
+cells	old/memtest2.c	/^    int             cells;$/;"	m	struct:Block	file:
+cells	old/memtest3.c	/^    char            *cells;$/;"	m	struct:Block	file:
+free_cells	memlib.h	/^    void            *free_cells;$/;"	m	struct:MemManager
+free_cells	old/memtest2.c	/^    void            *free_cells;$/;"	m	struct:MemManager	file:
+free_cells	old/memtest3.c	/^    void            *free_cells;$/;"	m	struct:MemManager	file:
+get_next_offset	memtest.c	6;"	d	file:
+get_next_offset	old/memtest2.c	26;"	d	file:
+get_next_offset	old/memtest3.c	26;"	d	file:
+id	memtest.c	/^    int             id;$/;"	m	struct:Item	file:
+id	old/memtest.c	/^    int             id;$/;"	m	struct:Item	file:
+id	old/memtest1.c	/^    int             id;$/;"	m	struct:Item	file:
+id	old/memtest2.c	/^    int             id;$/;"	m	struct:Item	file:
+id	old/memtest3.c	/^    int             id;$/;"	m	struct:Item	file:
+items	old/memtest.c	/^    struct Item     *items;$/;"	m	struct:Block	typeref:struct:Block::Item	file:
+items	old/memtest1.c	/^    struct Item     *items;$/;"	m	struct:Block	typeref:struct:Block::Item	file:
+items	old/memtest1.h	/^    struct Item     *items;$/;"	m	struct:Block	typeref:struct:Block::Item
+main	memtest.c	/^int main(void)$/;"	f
+main	old/memtest.c	/^int main(void)$/;"	f
+main	old/memtest1.c	/^int main(void)$/;"	f
+main	old/memtest2.c	/^int main(void)$/;"	f
+main	old/memtest3.c	/^int main(void)$/;"	f
+memtest_alloc_block	memlib.c	/^memtest_alloc_block($/;"	f	file:
+memtest_alloc_block	old/memtest.c	/^memtest_alloc_block($/;"	f	file:
+memtest_alloc_block	old/memtest1.c	/^memtest_alloc_block($/;"	f	file:
+memtest_alloc_block	old/memtest2.c	/^memtest_alloc_block($/;"	f	file:
+memtest_alloc_block	old/memtest3.c	/^memtest_alloc_block($/;"	f	file:
+memtest_alloc_cell	memlib.c	/^memtest_alloc_cell($/;"	f
+memtest_alloc_cell	old/memtest2.c	/^memtest_alloc_cell($/;"	f	file:
+memtest_alloc_cell	old/memtest3.c	/^memtest_alloc_cell($/;"	f
+memtest_alloc_item	memtest.c	/^memtest_alloc_item($/;"	f	file:
+memtest_alloc_item	old/memtest.c	/^memtest_alloc_item($/;"	f	file:
+memtest_alloc_item	old/memtest1.c	/^memtest_alloc_item($/;"	f	file:
+memtest_alloc_item	old/memtest3.c	/^memtest_alloc_item($/;"	f	file:
+memtest_delete_cell	memlib.c	/^memtest_delete_cell($/;"	f
+memtest_delete_cell	old/memtest3.c	/^memtest_delete_cell($/;"	f	file:
+memtest_delete_item	memtest.c	/^memtest_delete_item($/;"	f	file:
+memtest_delete_item	old/memtest3.c	/^memtest_delete_item($/;"	f	file:
+memtest_destroy_memmanager	memlib.c	/^memtest_destroy_memmanager($/;"	f
+memtest_destroy_memmanager	old/memtest.c	/^memtest_destroy_memmanager($/;"	f	file:
+memtest_destroy_memmanager	old/memtest1.c	/^memtest_destroy_memmanager($/;"	f	file:
+memtest_destroy_memmanager	old/memtest2.c	/^memtest_destroy_memmanager($/;"	f	file:
+memtest_destroy_memmanager	old/memtest3.c	/^memtest_destroy_memmanager($/;"	f
+memtest_memmanager_item_init	old/memtest2.c	/^memtest_memmanager_item_init($/;"	f	file:
+memtest_set_free_cells	memlib.c	/^memtest_set_free_cells($/;"	f	file:
+memtest_set_free_cells	old/memtest2.c	/^memtest_set_free_cells($/;"	f	file:
+memtest_set_free_cells	old/memtest3.c	/^memtest_set_free_cells($/;"	f	file:
+memtest_set_free_items	old/memtest.c	/^memtest_set_free_items($/;"	f	file:
+memtest_set_free_items	old/memtest1.c	/^memtest_set_free_items($/;"	f	file:
+n_cell_per_block	memlib.h	/^    int             n_cell_per_block;$/;"	m	struct:MemManager
+n_cell_per_block	old/memtest2.c	/^    int             n_cell_per_block;$/;"	m	struct:MemManager	file:
+n_cell_per_block	old/memtest3.c	/^    int             n_cell_per_block;$/;"	m	struct:MemManager	file:
+n_item_per_block	old/memtest.c	/^    int             n_item_per_block;$/;"	m	struct:MemManager	file:
+n_item_per_block	old/memtest1.c	/^    int             n_item_per_block;$/;"	m	struct:MemManager	file:
+n_item_per_block	old/memtest1.h	/^    int             n_item_per_block;$/;"	m	struct:MemManager
+next	memlib.h	/^    struct Block    *next;$/;"	m	struct:Block	typeref:struct:Block::Block
+next	memtest.c	/^    struct Item     *next;$/;"	m	struct:Item	typeref:struct:Item::Item	file:
+next	old/memtest.c	/^    struct Block    *next;$/;"	m	struct:Block	typeref:struct:Block::Block	file:
+next	old/memtest.c	/^    struct Item     *next;$/;"	m	struct:Item	typeref:struct:Item::Item	file:
+next	old/memtest1.c	/^    struct Block    *next;$/;"	m	struct:Block	typeref:struct:Block::Block	file:
+next	old/memtest1.c	/^    struct Item     *next;$/;"	m	struct:Item	typeref:struct:Item::Item	file:
+next	old/memtest1.h	/^    struct Block    *next;$/;"	m	struct:Block	typeref:struct:Block::Block
+next	old/memtest2.c	/^    struct Block    *next;$/;"	m	struct:Block	typeref:struct:Block::Block	file:
+next	old/memtest2.c	/^    struct Item     *next;$/;"	m	struct:Item	typeref:struct:Item::Item	file:
+next	old/memtest3.c	/^    struct Block    *next;$/;"	m	struct:Block	typeref:struct:Block::Block	file:
+next	old/memtest3.c	/^    struct Item     *next;$/;"	m	struct:Item	typeref:struct:Item::Item	file:
+offset_next	memlib.h	/^    int             offset_next;            \/\/ cell 内の next への offset$/;"	m	struct:MemManager
+offset_next	old/memtest2.c	/^    int             offset_next;            \/\/ cell 内の next への offset$/;"	m	struct:MemManager	file:
+offset_next	old/memtest3.c	/^    int             offset_next;            \/\/ cell 内の next への offset$/;"	m	struct:MemManager	file:
+top	memlib.h	/^    struct Block    *top;$/;"	m	struct:MemManager	typeref:struct:MemManager::Block
+top	old/memtest.c	/^    struct Block    *top;$/;"	m	struct:MemManager	typeref:struct:MemManager::Block	file:
+top	old/memtest1.c	/^    struct Block    *top;$/;"	m	struct:MemManager	typeref:struct:MemManager::Block	file:
+top	old/memtest1.h	/^    struct Block    *top;$/;"	m	struct:MemManager	typeref:struct:MemManager::Block
+top	old/memtest2.c	/^    struct Block    *top;$/;"	m	struct:MemManager	typeref:struct:MemManager::Block	file:
+top	old/memtest3.c	/^    struct Block    *top;$/;"	m	struct:MemManager	typeref:struct:MemManager::Block	file:
